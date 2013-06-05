@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 	
 		/* findViewById method for buttons.  */
-		viewMenu = (Button)findViewById(R.id.btnviewMenu);
+		viewMenu = (Button)findViewById(R.id.placeorderBtn);
 		
 		
 		viewMenu.setOnClickListener(new View.OnClickListener() {
