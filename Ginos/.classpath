@@ -4,6 +4,9 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
+<<<<<<< HEAD
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+=======
+>>>>>>> 1094e2837b626f41b4c46bef9a20c936f3d117a1
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

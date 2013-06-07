@@ -42,9 +42,12 @@ public class MainActivity extends Activity {
         
 		/* findViewById method for buttons.  */
 		viewMenu = (Button)findViewById(R.id.placeorderBtn);
+<<<<<<< HEAD
 		eShop = (Button)findViewById(R.id.eshopBtn);
 		loyalty = (Button)findViewById(R.id.loyaltyBtn);
 		aboutUs = (Button)findViewById(R.id.aboutBtn);
+=======
+>>>>>>> 1094e2837b626f41b4c46bef9a20c936f3d117a1
 		
 		//Button click functioning
 		
