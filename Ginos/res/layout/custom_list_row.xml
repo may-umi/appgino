@@ -38,9 +38,6 @@
         android:textStyle="bold"
         android:typeface="sans" />
 
- 
-
-
     <!-- Price on Right end -->
 
     <TextView

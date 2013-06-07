@@ -1,3 +1,5 @@
+//About Us activity
+
 package com.wbs.ginos;
 
 import android.os.Bundle;

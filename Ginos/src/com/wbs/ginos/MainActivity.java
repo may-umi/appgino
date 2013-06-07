@@ -46,10 +46,12 @@ public class MainActivity extends Activity {
 		loyalty = (Button)findViewById(R.id.loyaltyBtn);
 		aboutUs = (Button)findViewById(R.id.aboutBtn);
 		
+		//Button click functioning
+		
 		viewMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-            	viewMenu.setBackgroundResource(R.drawable.placeorderclick);
+            	viewMenu.setBackgroundResource(R.drawable.placeorderclick); //button press
                 Intent i = new Intent(getApplicationContext(), FetchCategoriesActivity.class);
                 startActivity(i);
             }
@@ -83,6 +85,7 @@ public class MainActivity extends Activity {
         });
 	}
 	
+	//Set button images back to normal on resuming the activity, in case user presses back button
 	@Override
 	public void onResume()
 	{
@@ -92,7 +95,13 @@ public class MainActivity extends Activity {
 		loyalty.setBackgroundResource(R.drawable.loyalty);
 		aboutUs.setBackgroundResource(R.drawable.aboutus);
 	}
-
+	
+	@Override
+	public void onPause()
+	{
+		super.onPause();
+	}
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.

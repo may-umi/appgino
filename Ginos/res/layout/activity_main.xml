@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:text="View Menu" />
 -->
-
+<!-- About Button -->
      <Button
          android:id="@+id/aboutBtn"
          android:layout_width="110dp"
@@ -25,7 +25,7 @@
          android:layout_alignLeft="@+id/placeorderBtn"
          android:background="@drawable/aboutus"
          android:textSize="18sp" />
-
+<!-- Loyalty Button -->
      <Button
          android:id="@+id/loyaltyBtn"
          android:layout_width="110dp"
@@ -34,7 +34,7 @@
          android:layout_below="@+id/eshopBtn"
          android:background="@drawable/loyalty"
          android:textSize="18sp" />
-
+<!-- e-shop Button -->
      <Button
          android:id="@+id/eshopBtn"
          android:layout_width="110dp"
@@ -43,7 +43,8 @@
          android:layout_toRightOf="@+id/aboutBtn"
          android:background="@drawable/eshop"
          android:textSize="18sp" />
-
+     
+<!-- Place Order Button -->
      <Button
          android:id="@+id/placeorderBtn"
          android:layout_width="110dp"
