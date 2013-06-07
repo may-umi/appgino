@@ -9,9 +9,12 @@
     android:background="@drawable/background"
     tools:context=".AboutActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+    <Button
+         android:id="@+id/gohome"
+         android:layout_width="140dip"
+         android:layout_height="70dp"
+         android:layout_alignParentLeft="true"
+         android:layout_centerVertical="true"
+         android:background="@drawable/logobrown" />
 
 </RelativeLayout>
